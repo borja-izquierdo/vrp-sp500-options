@@ -1,0 +1,42 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Vendor and derived data (ThetaData / Stooq / FRED terms: no redistribution)
+data/
+*.parquet
+cache/
+
+# Logs can contain account details printed by the ThetaData client
+*.log
+*_output.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# LaTeX build files
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.out
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+paper/**/*.synctex.gz
+paper/**/build.log
+paper/**/pages/

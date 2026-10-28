@@ -1,0 +1,3 @@
+model,rmse,mae,huber,dir_acc,corr
+lightgbm,0.0682,0.0477,0.0008,0.9006,0.117
+xgboost,0.0662,0.0426,0.0007,0.9048,0.2652
